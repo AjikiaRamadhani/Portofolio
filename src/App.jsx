@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Preloader from './components/Preloader';
 import BackToTop from './components/BackToTop';
+import Footer from './components/Footer';
 import { profileData } from './data';
 
 function App() {
@@ -34,11 +35,7 @@ function App() {
         <Experience />
         <Contact />
         
-        <footer className="py-8 bg-white border-t border-gray-100 text-center transition-colors duration-500">
-          <p className="text-xs font-bold text-gray-400 tracking-wider">
-            © {new Date().getFullYear()} {profileData.name.toUpperCase()}. ALL RIGHTS RESERVED.
-          </p>
-        </footer>
+       <Footer />
       </div>
 
       {/* Tombol BackToTop dipindah ke luar sini biar efek melayangnya nggak rusak */}
