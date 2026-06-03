@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 
 
-const Portfolio = () => {
+const Project = () => {
   return (
     <section id="portfolio" className="py-20 px-8 md:px-24 bg-bg-main">
       <div className="max-w-6xl mx-auto">

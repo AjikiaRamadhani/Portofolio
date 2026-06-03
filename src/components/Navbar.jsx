@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-10 text-xs font-bold tracking-widest text-gray-500 uppercase items-center">
           <a href="#home" className="hover:text-accent-red transition-colors duration-300">Home</a>
           <a href="#skills" className="hover:text-accent-red transition-colors duration-300">Skills</a>
-          <a href="#portfolio" className="hover:text-accent-red transition-colors duration-300">Portfolio</a>
+          <a href="#portfolio" className="hover:text-accent-red transition-colors duration-300">Project</a>
           <a href="#experience" className="hover:text-accent-red transition-colors duration-300">Experience</a>
           <a href="#contact" className="hover:text-accent-red transition-colors duration-300">Contact</a>
         </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex flex-col px-8 py-4 space-y-4 text-sm font-bold tracking-widest text-gray-500 uppercase">
           <a href="#home" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Home</a>
           <a href="#skills" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Skills</a>
-          <a href="#portfolio" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Portfolio</a>
+          <a href="#portfolio" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Project</a>
           <a href="#experience" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Experience</a>
           <a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-accent-red">Contact</a>
         </div>

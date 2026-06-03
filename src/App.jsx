@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Preloader from './components/Preloader';
@@ -31,7 +31,7 @@ function App() {
         <Navbar />
         <Hero />
         <Skills />
-        <Portfolio />
+        <Project />
         <Experience />
         <Contact />
         
