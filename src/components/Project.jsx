@@ -66,4 +66,4 @@ const Project = () => {
   );
 };
 
-export default Portfolio;
+export default Project;
