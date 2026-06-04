@@ -50,7 +50,7 @@ const Footer = () => {
               <a href="https://linkedin.com/in/aji-kia-ramadhani" target="_blank" rel="noopener noreferrer" className="text-text-main hover:text-accent-red transition-colors">
                 <FaLinkedin size={20} />
               </a>
-              <a href="mailto:email-kamu@gmail.com" className="text-text-main hover:text-accent-red transition-colors">
+              <a href="mailto:ajikiar4@gmail.com" className="text-text-main hover:text-accent-red transition-colors">
                 <FaEnvelope size={20} />
               </a>
             </div>
